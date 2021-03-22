@@ -1,0 +1,169 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .logo-header{
+    width: 120px;
+    height: 70px;
+    margin-left: 5px;
+}
+
+/* header .logo-header{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial black';
+    font-size: 40px;
+} */
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 2%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(201, 196, 196);
+    margin-right: 10px;
+    font-family:Arial;
+    font-weight: bold;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.perfil-ico{
+    width: 32px;
+}
+
+.notify-i i, .search-i i{
+    font-size: 20px;
+}
+/*Filme principal*/
+
+.filme-principal{
+    font-size:16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-the-ranch.jpg');
+
+    height:500px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao{
+    background-color:rgba(0,0,0,.50);
+    color: white;
+
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.botao:hover{
+    color: #000;
+    background-color: white;
+    transition: 1s ease all;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filmes{
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+.carrossel-filmes h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+.tema{
+    display: flex;
+}
+
+.box-temas{
+    width: 100%;
+    height: 80%;
+    display: block;
+    cursor: pointer;
+}
+
+.tema .item{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.item-texto{
+    position: relative;
+    background: url();
+}
+
+.item-1{
+    background: url('../img/cat-recente.jpg)');
+
+}

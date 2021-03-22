@@ -1,0 +1,22 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-bottom: 5px;
+        width: 300px;
+    }
+
+    .carrossel-filmes h1{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
