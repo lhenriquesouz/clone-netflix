@@ -1,4 +1,4 @@
-# clone-netflix 
+# clone-netflix 🖥️
 
-Projeto clone do netflix com intuito de fixar conceitos de display e práticas com CSS
+Projeto clone do netflix com intuito de fixar conceitos de display e práticas com CSS 📝
   
