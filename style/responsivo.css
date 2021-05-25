@@ -4,6 +4,11 @@
         flex-direction: column;
     }
 
+    .tipo-conteudo{
+        width: 400%;
+        display: block;
+    }
+
     .botao{
         margin-bottom: 5px;
         width: 300px;
